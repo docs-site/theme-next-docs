@@ -101,11 +101,11 @@ By default NexT doesn't show avatar in sidebar. You can configure it by editing 
 
 {% tabs avatar %}
 <!-- tab <code>url</code> -->
-For first test you can uncomment `/images/avatar.gif` value near the `avatar.url` setting to see default avatar:
+For first test you can uncomment `/theme-next-docs/images/avatar.gif` value near the `avatar.url` setting to see default avatar:
 
 ```yml NexT config file
 avatar:
-  url: /images/avatar.gif
+  url: /theme-next-docs/images/avatar.gif
 ```
 
 Then you need to specify your own avatar. It can be done one of the ways below:
@@ -117,15 +117,15 @@ And then change option to `url: /uploads/avatar.png`.
 <!-- endtab -->
 
 <!-- tab NexT directory -->
-Put your avatar under {% label primary@theme directory %} `source/images/`.
-And then change option to `url: /images/avatar.png`.
+Put your avatar under {% label primary@theme directory %} `source/theme-next-docs/images/`.
+And then change option to `url: /theme-next-docs/images/avatar.png`.
 
 {% note info %}
-Current site uses avatar under {% label primary@theme directory %} from file located in `next/source/images/apple-touch-icon-next.png` with following config:
+Current site uses avatar under {% label primary@theme directory %} from file located in `next/source/theme-next-docs/images/apple-touch-icon-next.png` with following config:
 
 ```yml NexT config file
 avatar:
-  url: /images/apple-touch-icon-next.png
+  url: /theme-next-docs/images/apple-touch-icon-next.png
 ```
 
 {% endnote %}

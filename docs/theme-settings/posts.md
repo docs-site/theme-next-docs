@@ -213,7 +213,7 @@ tag_icon: true
 
 NexT theme provides a donation feature that allows readers to show appreciation for your work. You can display QR codes for various payment methods (such as WeChat Pay, Alipay, Bitcoin, etc.) at the end of your articles, making it convenient for readers to support your content creation efforts. What you need is:
 
-1. Get your WeChat / Alipay / Bitcoin receive money QRcode image(s) and put into `source/images` under {% label primary@theme directory %} or upload it(them) to an image cloud to get the absolute HTTP address(es).
+1. Get your WeChat / Alipay / Bitcoin receive money QRcode image(s) and put into `source/theme-next-docs/images` under {% label primary@theme directory %} or upload it(them) to an image cloud to get the absolute HTTP address(es).
 2. Set needed values in  {% label primary@NexT config file %}:
 
     ```yml NexT config file
@@ -225,16 +225,16 @@ NexT theme provides a donation feature that allows readers to show appreciation 
       animation: false
 
     reward:
-      wechatpay: /images/wechatpay.png
-      alipay: /images/alipay.png
-      bitcoin: /images/bitcoin.png
+      wechatpay: /theme-next-docs/images/wechatpay.png
+      alipay: /theme-next-docs/images/alipay.png
+      bitcoin: /theme-next-docs/images/bitcoin.png
     ```
 
 You can also add QRcode of other platforms, e.g.
 
 ```yml NexT config file
-paypal: /images/paypal.png
-monero: /images/monero.png
+paypal: /theme-next-docs/images/paypal.png
+monero: /theme-next-docs/images/monero.png
 ```
 
 ### Follow Me
@@ -247,7 +247,7 @@ NexT theme offers a "Follow Me" feature that enables you to showcase your social
 follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
+  #WeChat: /theme-next-docs/images/wechat_channel.jpg || fab fa-weixin
   #RSS: /atom.xml || fa fa-rss
 ```
 

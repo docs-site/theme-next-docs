@@ -29,9 +29,9 @@ By using different Schemes in NexT, you can simply change the style of your blog
 Thanks to the contribution of our users and developers, [NexT now supports over 20 languages](/docs/theme-settings/internationalization.html#Choosing-Language).
 
 {% gp 3-1 %}
-![English translation](/images/en.png)
-![Chinese translation](/images/cn.png)
-![Russian translation](/images/ru.png)
+![English translation](/theme-next-docs/images/en.png)
+![Chinese translation](/theme-next-docs/images/cn.png)
+![Russian translation](/theme-next-docs/images/ru.png)
 {% endgp %}
 
 ### Code Highlighting Themes
@@ -70,9 +70,9 @@ If you need to support older browsers that are not on the supported list, you mi
 
 NexT have flexible but simple options, and you can make your own blog with built-in third-party support. Now let's [get started](/docs/getting-started/).
 
-[Tomorrow]: /images/tomorrow.svg
-[Tomorrow Night]: /images/tomorrow-night.svg
-[Tomorrow Night Eighties]: /images/tomorrow-night-eighties.svg
-[Tomorrow Night Blue]: /images/tomorrow-night-blue.svg
-[Tomorrow Night Bright]: /images/tomorrow-night-bright.svg
-[Default]: /images/default.svg
+[Tomorrow]: /theme-next-docs/images/tomorrow.svg
+[Tomorrow Night]: /theme-next-docs/images/tomorrow-night.svg
+[Tomorrow Night Eighties]: /theme-next-docs/images/tomorrow-night-eighties.svg
+[Tomorrow Night Blue]: /theme-next-docs/images/tomorrow-night-blue.svg
+[Tomorrow Night Bright]: /theme-next-docs/images/tomorrow-night-bright.svg
+[Default]: /theme-next-docs/images/default.svg

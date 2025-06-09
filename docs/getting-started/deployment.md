@@ -24,7 +24,7 @@ There are two main methods for deploying a Hexo site:
 
 [Cloudflare Pages](https://pages.cloudflare.com) is a JAMstack platform for frontend developers to collaborate and deploy websites. You can connect your GitHub or GitLab account with Cloudflare Pages. After that, you just need to push your blog source code to the repository, and create a new project in Cloudflare Pages. In the project's settings, you can configure the build settings as shown below.
 
-![Cloudflare Pages](/images/cloudflare-pages.png)
+![Cloudflare Pages](/theme-next-docs/images/cloudflare-pages.png)
 
 Cloudflare Pages will automatically build and deploy your site.
 
@@ -38,7 +38,7 @@ Perhaps you have already found that this website is deployed on Netlify. Checkou
 
 To publish your Hexo site on Github Pages, you need create a GitHub repository and push your local repository to it. Visit your GitHub repository, from the main menu choose Settings > Pages. In then center of your screen you will see this option:
 
-![](/images/github-pages.png)
+![](/theme-next-docs/images/github-pages.png)
 
 Change the Source to GitHub Actions. The change is immediate; you do not have to press a Save button.
 

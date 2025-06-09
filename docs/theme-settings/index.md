@@ -70,21 +70,21 @@ Theme NexT automatically shows Dark Mode if the OS preferred theme is dark. It's
 
 #### Configuring Favicon
 
-By default the Hexo site use NexT favicons in `hexo-site/themes/next/source/images/` directory with different size for different device. You can replace them with your own favicons.
+By default the Hexo site use NexT favicons in `hexo-site/themes/next/source/theme-next-docs/images/` directory with different size for different device. You can replace them with your own favicons.
 
-For example, you can put your favicons in `hexo-site/source/images/` directory. Then you need to rename them and change the settings in `favicon` section in {% label primary@NexT config file %}, otherwise icons from Next will rewrite your custom icons in Hexo.
+For example, you can put your favicons in `hexo-site/source/theme-next-docs/images/` directory. Then you need to rename them and change the settings in `favicon` section in {% label primary@NexT config file %}, otherwise icons from Next will rewrite your custom icons in Hexo.
 
-You can also put custom favicons into `hexo-site/source/` directory. In this way, you **must remove** `/images` prefix from paths.
+You can also put custom favicons into `hexo-site/source/` directory. In this way, you **must remove** `/theme-next-docs/images` prefix from paths.
 
 To generate custom favicons, you can visit [Favicon Generator](https://realfavicongenerator.net).
 
 ```yml NexT config file
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
-  android_manifest: /images/manifest.json
+  small: /theme-next-docs/images/favicon-16x16-next.png
+  medium: /theme-next-docs/images/favicon-32x32-next.png
+  apple_touch_icon: /theme-next-docs/images/apple-touch-icon-next.png
+  safari_pinned_tab: /theme-next-docs/images/logo.svg
+  android_manifest: /theme-next-docs/images/manifest.json
 ```
 
 #### Custom Logo Support

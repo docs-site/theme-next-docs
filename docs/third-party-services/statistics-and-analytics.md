@@ -33,7 +33,7 @@ Login to [Baidu Analytics](https://tongji.baidu.com) and locate to site code get
 
 <!-- tab Script ID → -->
 Copy the script ID after `hm.js?`, like the following picture:
-![NexT Baidu Analytics](/images/analytics-baidu-id.png)
+![NexT Baidu Analytics](/theme-next-docs/images/analytics-baidu-id.png)
 <!-- endtab -->
 
 <!-- tab NexT Config -->
@@ -130,9 +130,9 @@ Adding article reading times counting to NexT theme. Documentation how to set th
 {% tabs leanCloud-counter %}
 <!-- tab Get App Keys → -->
 1. Create an account or log in to [LeanCloud](https://console.leancloud.app/login), and then click the button to create an application in [dashboard](https://console.leancloud.app/apps).
-    ![LeanCloud](/images/valine-1.png)
+    ![LeanCloud](/theme-next-docs/images/valine-1.png)
 2. Go to the application you just created, select `Settings → App Keys` in the lower left corner, and you will see your APP ID and APP Key.
-    ![LeanCloud](/images/valine-2.png)
+    ![LeanCloud](/theme-next-docs/images/valine-2.png)
 <!-- endtab -->
 
 <!-- tab Installation → -->
@@ -184,8 +184,8 @@ Firebase Analytics provides the functionality of visitor statistics.
 <!-- tab Get apiKey & projectId → -->
 Login to [Firebase](https://console.firebase.google.com/u/0/) to get apiKey and projectId. The Web API Key gets generated once you go into the "Authentication" section for the first time.
 
-![Firebase](/images/firebase-1.png)
-![Firebase](/images/firebase.png)
+![Firebase](/theme-next-docs/images/firebase-1.png)
+![Firebase](/theme-next-docs/images/firebase.png)
 
 [More detailed documentation](https://firebase.google.com/docs/firestore/)
 <!-- endtab -->
@@ -193,8 +193,8 @@ Login to [Firebase](https://console.firebase.google.com/u/0/) to get apiKey and 
 <!-- tab Create Firestore Database → -->
 1. Create a Firestore database in Firebase console.
 
-![Firestore](/images/firestore-1.png)
-![Firestore](/images/firestore-2.png)
+![Firestore](/theme-next-docs/images/firestore-1.png)
+![Firestore](/theme-next-docs/images/firestore-2.png)
 
 2. Apply these rules in Firestore Database Rules:
 
@@ -215,7 +215,7 @@ service cloud.firestore {
 
 This configuration allows anyone to read the visitor count but prevents unauthorized writes to the database.
 
-![Firestore](/images/firestore-3.png)
+![Firestore](/theme-next-docs/images/firestore-3.png)
 <!-- endtab --> 
 
 <!-- tab NexT Config -->

@@ -67,7 +67,7 @@ Disqus is a global comment system that improves discussion on websites and conne
 
 {% note warning %}
 By default, Disqus enables advertisements and tracking codes, including the insertion of Viglink redirect links into web pages. This may cause inconvenience to visitors. In the Disqus settings, this behavior can be stopped by unchecking the `Affiliate links` option. Other advertising and tracking options can also be customized.
-![Algolia API Keys](/images/disqus.png)
+![Algolia API Keys](/theme-next-docs/images/disqus.png)
 {% endnote %}
 
 ### DisqusJS

@@ -24,8 +24,8 @@ or
     {% grouppicture 4-2 %}{% endgrouppicture %}
     ```
 
-![Group Picture Layout](/images/group-picture-1.png)
-![Group Picture Layout](/images/group-picture-2.png)
+![Group Picture Layout](/theme-next-docs/images/group-picture-1.png)
+![Group Picture Layout](/theme-next-docs/images/group-picture-2.png)
 
 {% note info %}
 It's recommended to use Group Pictures with [Fancybox](/docs/third-party-services/external-libraries.html#Fancybox) enabled.
@@ -39,32 +39,32 @@ Please use absolute paths for `<img>` inside group pictures. See [this issue](ht
 
 ```jinja
 {% grouppicture 3-3 %}
-![](/images/next.png)
-![](/images/next.png)
-![](/images/next.png)
+![](/theme-next-docs/images/next.png)
+![](/theme-next-docs/images/next.png)
+![](/theme-next-docs/images/next.png)
 {% endgrouppicture %}
 ```
 
 {% grouppicture 3-3 %}
-![](/images/next.png)
-![](/images/next.png)
-![](/images/next.png)
+![](/theme-next-docs/images/next.png)
+![](/theme-next-docs/images/next.png)
+![](/theme-next-docs/images/next.png)
 {% endgrouppicture %}
 
 ```jinja
 {% gp 5-2 %}
-![](/images/next.png)
-![](/images/next.png)
-![](/images/next.png)
-![](/images/next.png)
-![](/images/next.png)
+![](/theme-next-docs/images/next.png)
+![](/theme-next-docs/images/next.png)
+![](/theme-next-docs/images/next.png)
+![](/theme-next-docs/images/next.png)
+![](/theme-next-docs/images/next.png)
 {% endgp %}
 ```
 
 {% gp 5-2 %}
-![](/images/next.png)
-![](/images/next.png)
-![](/images/next.png)
-![](/images/next.png)
-![](/images/next.png)
+![](/theme-next-docs/images/next.png)
+![](/theme-next-docs/images/next.png)
+![](/theme-next-docs/images/next.png)
+![](/theme-next-docs/images/next.png)
+![](/theme-next-docs/images/next.png)
 {% endgp %}

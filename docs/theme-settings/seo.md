@@ -153,5 +153,5 @@ baidu_site_verification: code-XXXXXXXXXX
 {% note info %}
 By default Baidu will cache and rewrite your site to provide a webpage snapshot for mobile users. You can disable this by setting the site type.
 
-![Baidu Webmaster Tools](/images/baidu.png)
+![Baidu Webmaster Tools](/theme-next-docs/images/baidu.png)
 {% endnote %}
